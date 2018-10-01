@@ -1,6 +1,9 @@
 #!/bin/bash
 
-cat << EOF > ~/wagerr-2.0.0/bin/
+cd ~/wagerr-2.0.0/bin
+mkdir cronlog
+
+cat << EOF > ~/wagerr-2.0.0/bin/mn_auto.sh
 #!/bin/bash
 SERVICE=’wagerrd’
 
