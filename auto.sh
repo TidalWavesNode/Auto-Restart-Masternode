@@ -5,7 +5,7 @@ mkdir cronlog
 
 cat << EOF > ~/wagerr-2.0.0/bin/mn_auto.sh
 #!/bin/bash
-SERVICE=’wagerrd’
+SERVICE='wagerrd'
 
 if ps ax | grep -v grep | grep $SERVICE > /dev/null
 then
