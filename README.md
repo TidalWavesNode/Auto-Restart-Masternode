@@ -43,11 +43,17 @@ Days of the week, specified as numbers from 0 to 7, with Sunday represented as e
 
 # Testing:
 1. stop masternode
+
 cd ~/wagerr-2.0.0/bin/
+
 ./wagerr-cli stop
 
 cd ~/wagerr-2.0.0/bin/cronlog 
+
 watch cat auto.log #(ctrl-c to break watch)
+
 cat auto.log
+
 ***or***
+
 watch grep CRON /var/log/syslog (ctrl-c to break watch) #this will show all the times the cron job ran
