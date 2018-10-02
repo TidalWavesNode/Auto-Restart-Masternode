@@ -3,7 +3,7 @@
 This will install a script and add a crontab line that will check to see if wagerrd is running on your masternode. If it is running great if it is not then it will start it automagically for you.  
 
 # Installation:
-Log into the server using ssh (Putty for windows or terminal for Mac users) and run the following commands:
+Log into the server using ssh and run the following commands:
 
 wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode/master/auto.sh
 
