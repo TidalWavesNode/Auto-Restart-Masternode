@@ -6,6 +6,7 @@ This will install a script and add a crontab line that will check to see if wage
 Log into the server using ssh (Putty for windows or terminal for Mac users) and run the following commands:
 
 wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode/master/auto.sh
+
 bash auto.sh
 Answer Yes to prompts
 
