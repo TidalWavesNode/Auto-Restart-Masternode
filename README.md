@@ -14,12 +14,15 @@ Answer Yes to prompts
 # Details:
 mn_auto.sh will be created in the ~/wagerr-2.0.0/bin/ directory
 The created cron task will run every 15 minutes and create a log output in the created ~/wagerr-2.0.0/bin/cronlog directory
+
 The timing can be modified by the following command
+
 sudo crontab -e
 
 locate the line (*/15 * * * * /root/wagerr-2.0.0/bin/mn_auto.sh >> /root/wagerr-2.0.0/bin/cronlog/auto.log 2>&1 #logs output to auto.log)
 
 Modify based on your required time frame 
+
 Time intervals are denoted by numbers and operators filled in place of each asterisk in a Cron job’s crontab line. From left to right, the asterisks represent:
 
 Minutes specified as a number from 0 to 59.
