@@ -1,6 +1,6 @@
 +PIVXauto.sh for PIVX masternodes
 
-Installation - 
+Installation for PIVX- 
 
 wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode/master/PIVXauto.sh
 
