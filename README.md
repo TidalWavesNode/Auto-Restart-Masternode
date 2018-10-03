@@ -68,4 +68,5 @@ watch grep CRON /var/log/syslog (ctrl-c to break watch) #this will show all the 
 
 # Donations
 $WGR: WagerrLiVo87tYRpLmwV3QJvB2sY58hS5f
+
 $PIVX: D8bdLWE9Hkg4DdawmyePpPWWQMyk2ABGnm
