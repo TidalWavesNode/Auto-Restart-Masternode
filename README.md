@@ -1,3 +1,10 @@
++PIVXauto.sh for PIVX masternodes
+Installation - 
+wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode/master/PIVXauto.sh
+bash PIVXauto.sh
+yes
+yes
+
 # Wagerr
 
 This will install a script and add a crontab line that will check to see if wagerrd is running on your masternode. If it is running great if it is not then it will start it automagically for you.  
