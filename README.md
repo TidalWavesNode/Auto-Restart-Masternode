@@ -19,6 +19,8 @@ bash auto.sh
 
 Answer Yes to prompts
 
+***If you do not have an existing crontab then the "normal" output of the script will say "no crontab for root" this is normal and the crontab file has been created and the crontask line has been added.***
+
 # Details:
 mn_auto.sh will be created in the ~/wagerr-2.0.0/bin/ directory
 The created cron task will run every 15 minutes and create a log output in the created ~/wagerr-2.0.0/bin/cronlog directory
