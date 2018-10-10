@@ -4,7 +4,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 
-cd ~/wagerr-2.0.0/bin
+cd ~/wagerr-2.0.1/bin
 
 cat <<EOT > mn_auto.sh
 #!/bin/bash
