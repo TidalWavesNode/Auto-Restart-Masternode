@@ -6,6 +6,8 @@ wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode
 
 bash StorX-Node.sh
 
+*default CRON time to run is 0100 UTC the 1st day of every month*
+
 +PIVXauto.sh for PIVX masternodes
 
 Installation for PIVX- 
