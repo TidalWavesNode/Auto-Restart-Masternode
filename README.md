@@ -1,3 +1,11 @@
++StorX-Node.sh for StorX Nodes
+
+Installation for SRX-
+
+wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode/master/StorX-Node.sh
+
+bash StorX-Node.sh
+
 +PIVXauto.sh for PIVX masternodes
 
 Installation for PIVX- 
