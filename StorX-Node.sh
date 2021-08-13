@@ -22,7 +22,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 
-crontab -l | { cat; echo "*/15 * * * * /root/StorX-Node/n_auto-upgrade.sh >> /root/StorX-Node/cronlog/auto.log 2>&1 #logs output to auto.log"; } | crontab - l
+crontab -l | { cat; echo "*/0 1 1 * * /root/StorX-Node/n_auto-upgrade.sh >> /root/StorX-Node/cronlog/auto.log 2>&1 #logs output to auto.log"; } | crontab - l
 
 mkdir cronlog
 fi
