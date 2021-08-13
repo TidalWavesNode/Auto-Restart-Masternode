@@ -9,6 +9,15 @@ bash StorX-Node.sh
 
 *default CRON time to run is 0100 UTC the 1st day of every month*
 
+
+watch cat auto.log #(ctrl-c to break watch)
+
+cat auto.log
+
+or
+
+watch grep CRON /var/log/syslog (ctrl-c to break watch) #this will show all the times the cron job ran
+
 -----------------------------------------------------------------------------------------------------------
 
 +PIVXauto.sh for PIVX masternodes
