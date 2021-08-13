@@ -1,4 +1,4 @@
-+StorX-Node.sh for StorX Nodes
++StorX-Node.sh for StorX Nodes (runs upgrade based on set time parameters)
 
 Installation for SRX-
 
