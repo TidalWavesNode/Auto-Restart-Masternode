@@ -11,7 +11,6 @@ cat <<EOT > n_auto-upgrade.sh
 cd StorX-Node
 git pull
 sudo bash ./upgrade.sh
-fi
 EOT
 
 chmod 744 mn_auto.sh
