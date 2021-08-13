@@ -9,8 +9,9 @@ bash StorX-Node.sh
 
 *default CRON time to run is 0100 UTC the 1st day of every month*
 
+If you want to see the log
 
-watch cat auto.log #(ctrl-c to break watch)
+cd ~/StorX-Node/cronlog
 
 cat auto.log
 
