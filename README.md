@@ -71,6 +71,4 @@ cat auto.log
 watch grep CRON /var/log/syslog (ctrl-c to break watch) #this will show all the times the cron job ran
 
 # Donations
-$WGR: WagerrLiVo87tYRpLmwV3QJvB2sY58hS5f
-
-$PIVX: D8bdLWE9Hkg4DdawmyePpPWWQMyk2ABGnm
+$ETH: 0x3ad5D3667089175325e0b69584fe211cbc58c7bc
