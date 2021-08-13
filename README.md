@@ -51,6 +51,8 @@ Days of the week, specified as numbers from 0 to 7, with Sunday represented as e
 # 30 minutes
 */30 * * * * /root/wagerr-2.0.0/bin/mn_auto.sh >> /root/wagerr-2.0.0/bin/cronlog/auto.log 2>&1 #logs output to auto.log
 
+REF: https://support.acquia.com/hc/en-us/articles/360004224494-Cron-time-string-format
+
 # Testing: (optional)
 stop masternode
 
