@@ -1,3 +1,4 @@
+# StorX Nodes
 +StorX-Node.sh for StorX Nodes (runs upgrade based on set time parameters)
 
 Installation for SRX-
@@ -7,6 +8,8 @@ wget -q https://raw.githubusercontent.com/TidalWavesNode/Auto-Restart-Masternode
 bash StorX-Node.sh
 
 *default CRON time to run is 0100 UTC the 1st day of every month*
+
+br
 
 +PIVXauto.sh for PIVX masternodes
 
