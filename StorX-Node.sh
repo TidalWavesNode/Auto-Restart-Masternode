@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Do you want to create the mn_auto script? (Y/n) " -n 1 -r
+read -p "Do you want to create the n_auto-upgrade script? (Y/n) " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
