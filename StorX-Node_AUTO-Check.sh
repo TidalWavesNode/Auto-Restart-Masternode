@@ -8,10 +8,10 @@ cd ~/StorX-Node
 
 cat <<EOT > n_auto.sh
 #!/bin/bash
-SERVICE='xcore daemon'
+SERVICE='node'
 if ps ax | grep -v grep | grep $SERVICE > /dev/null
 then
-echo “Masternode is running! Yay!”
+echo “node is running! Yay!”
 else
 ~/StorX-Node/./start-node.sh
 fi
