@@ -13,7 +13,8 @@ if ps ax | grep -v grep | grep $SERVICE > /dev/null
 then
 echo “node is running! Yay!”
 else
-~/StorX-Node/./start-node.sh
+~/StorX-Node/
+sudo docker-compose -f docker-services.yml up -d
 fi
 EOT
 
